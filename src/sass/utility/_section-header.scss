@@ -1,0 +1,14 @@
+.section-header {
+	padding-inline: var(--spacing-2);
+	margin-bottom: clamp(6.4rem, 8vw, 8.4rem);
+
+	text-align: center;
+
+	h2 {
+		font-size: var(--fz-large);
+
+		@media (min-width: $bp-medium) {
+			--fz-large: 3.6rem;
+		}
+	}
+}
