@@ -1,5 +1,5 @@
 .btn-group {
-	--gap: 2.4rem;
+	--gap: var(--spacing-2);
 
 	display: flex;
 	flex-direction: column;
@@ -9,7 +9,7 @@
 	width: 100%;
 
 	@media (min-width: $bp-small) {
-		--gap: 1.6rem;
+		--gap: var(--spacing-1);
 		flex-direction: row;
 		place-content: center;
 	}

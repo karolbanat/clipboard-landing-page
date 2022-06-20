@@ -6,6 +6,10 @@
 	color: var(--clr-footer);
 	background-color: var(--bg-footer);
 
+	@media (min-width: $bp-medium) {
+		--padding: 4.2rem;
+	}
+
 	a {
 		--clr-link: inherit;
 		text-decoration: none;
