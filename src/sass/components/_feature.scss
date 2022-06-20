@@ -1,0 +1,22 @@
+.feature {
+	text-align: center;
+
+	&__heading {
+		margin-bottom: 1.2rem;
+		font-size: var(--fz-medium);
+	}
+
+	&__text {
+		max-width: 45ch;
+
+		@media (min-width: $bp-medium) {
+			margin-inline: initial;
+		}
+	}
+
+	&--left {
+		@media (min-width: $bp-medium) {
+			text-align: left;
+		}
+	}
+}

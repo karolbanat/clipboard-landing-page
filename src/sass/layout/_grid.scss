@@ -1,0 +1,7 @@
+.grid {
+	--gap: 6rem;
+
+	display: grid;
+	align-content: center;
+	gap: var(--gap);
+}
