@@ -24,7 +24,7 @@
 <body>
 
 	<header class="header">
-		<img src="./dist/images/logo.svg" alt="Clipboard logo." class="logo">
+		<img src="./dist/images/logo.svg" alt="Clipboard logo.">
 		<h1>A history of everything you copy</h1>
 		<p class="text-limited">Clipboard allows you to track and organize everything you
 			copy. Instantly access your clipboard on all your devices.</p>
@@ -131,33 +131,39 @@
 	</main>
 
 	<footer class="footer">
-		<img src="./dist/images/logo.svg" alt="Clipboard logo." class="logo logo--small">
-		<ul class="footer__links">
-			<li class="footer__links-col">
-				<ul>
-					<li><a href="#" class="link">FAQs</a></li>
-					<li><a href="#" class="link">Contact Us</a></li>
+		<div class="container">
+			<div class="footer__body">
+				<img src="./dist/images/logo.svg" alt="Clipboard logo." class="footer__logo">
+				<ul class="footer__links">
+					<li>
+						<ul class="footer__links-col">
+							<li><a href="#">FAQs</a></li>
+							<li><a href="#">Contact Us</a></li>
+						</ul>
+					</li>
+					<li>
+						<ul class="footer__links-col">
+							<li><a href="#">Privacy Policy</a></li>
+							<li><a href="#">Press Kit</a></li>
+						</ul>
+					</li>
+					<li>
+						<ul class="footer__links-col">
+							<li><a href="#">Install Guide</a></li>
+						</ul>
+					</li>
 				</ul>
-			</li>
-			<li class="footer__links-col">
-				<ul>
-					<li><a href="#" class="link">Privacy Policy</a></li>
-					<li><a href="#" class="link">Press Kit</a></li>
+				<ul class="media">
+					<li><a href="#" class="media__link" aria-label="Facebook"><i class="ti ti-brand-facebook"></i></a>
+					</li>
+					<li><a href="#" class="media__link" aria-label="Facebook"><i class="ti ti-brand-twitter"></i></a>
+					</li>
+					<li><a href="#" class="media__link" aria-label="Facebook"><i class="ti ti-brand-instagram"></i></a>
+					</li>
 				</ul>
-			</li>
-			<li class="footer__links-col">
-				<ul>
-					<li><a href="#" class="link">Install Guide</a></li>
-				</ul>
-			</li>
-		</ul>
-		<ul class="media">
-			<li><a href="#" class="media__link" aria-label="Facebook"><i class="ti ti-brand-facebook"></i></a></li>
-			<li><a href="#" class="media__link" aria-label="Facebook"><i class="ti ti-brand-twitter"></i></a></li>
-			<li><a href="#" class="media__link" aria-label="Facebook"><i class="ti ti-brand-instagram"></i></a></li>
-		</ul>
+			</div>
+		</div>
 	</footer>
-
 </body>
 
 </html>

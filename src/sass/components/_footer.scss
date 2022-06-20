@@ -1,0 +1,66 @@
+.footer {
+	--padding: 5.2rem;
+
+	padding: var(--padding);
+
+	color: var(--clr-footer);
+	background-color: var(--bg-footer);
+
+	a {
+		--clr-link: inherit;
+		text-decoration: none;
+		color: var(--clr-link);
+
+		transition: color 0.4s ease-in-out;
+
+		&:hover {
+			--clr-link: var(--clr-primary-700);
+		}
+	}
+
+	&__body {
+		--gap: clamp(8rem, 10vw, 13.5rem);
+
+		display: flex;
+		align-items: center;
+		gap: var(--gap);
+
+		@media (max-width: $bp-medium) {
+			flex-direction: column;
+			--gap: 4.4rem;
+		}
+
+		@media (min-width: $bp-medium) {
+			& > *:last-child {
+				margin-left: auto;
+			}
+		}
+	}
+
+	&__logo {
+		max-width: 5.5rem;
+	}
+
+	&__links {
+		--gap: clamp(3rem, 5vw, 8rem);
+		display: flex;
+		gap: var(--gap);
+
+		@media (max-width: $bp-medium) {
+			--gap: 2.8rem;
+
+			flex-direction: column;
+			text-align: center;
+		}
+	}
+
+	&__links-col {
+		display: flex;
+		flex-direction: column;
+		gap: var(--gap);
+
+		@media (min-width: $bp-medium) {
+			--gap: 2rem;
+		}
+	}
+}

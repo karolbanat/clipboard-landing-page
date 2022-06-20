@@ -1,0 +1,15 @@
+.media {
+	--gap: 4rem;
+
+	display: flex;
+	align-items: center;
+	gap: var(--gap);
+
+	@media (min-width: $bp-medium) {
+		--gap: var(--spacing-2);
+	}
+
+	&__link {
+		font-size: var(--fz-large);
+	}
+}

@@ -3,15 +3,15 @@
 	--clr-primary-600: hsl(233 100% 69%);
 	--clr-primary-700: hsl(171 66% 44%);
 
-	--clr-neutral-400: hsl(201 11% 66%);
+	--clr-neutral-400: hsl(202 11% 6%);
 	--clr-neutral-700: hsl(210 10% 33%);
 
-	--clr-white: hsl(0, 0%, 100%);
+	--clr-white: hsl(0 0% 100%);
 	--clr-transparent: hsl(0 0% 0% / 0.15);
 
 	// shadows
 	--shadow-400: 0 1rem 2rem hsl(0 0% 0% / 0.1);
-	--shadow-700: 0 1rem 2rem hsl(160 64% 72%/ 0.5);
+	--shadow-700: 0 1rem 2rem hsl(160 64% 72% / 0.5);
 
 	// font families
 	--ff: 'Bai Jamjuree', sans-serif;
@@ -38,5 +38,6 @@
 	--clr-button: var(--clr-white);
 	--clr-border-btm: var(--clr-transparent);
 
-	--footer-link: var(--clr-neutral-400);
+	--bg-footer: hsl(202 11% 66% / 0.1);
+	--clr-footer: var(--clr-neutral-700);
 }
