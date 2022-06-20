@@ -5,7 +5,11 @@
 	text-align: center;
 
 	&__icon {
+		width: 4rem;
+		aspect-ratio: 1;
 		margin-bottom: var(--spacing-2);
+
+		object-fit: contain;
 	}
 
 	&__heading {
