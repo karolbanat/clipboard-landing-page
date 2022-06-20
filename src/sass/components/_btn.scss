@@ -1,0 +1,38 @@
+.btn {
+	--fz-regular: 1.8rem;
+	--bg-button: var(--clr-transparent);
+	--shadow: var(--shadow-400);
+
+	padding-block: 1.6rem;
+
+	font-size: var(--fz-regular);
+	font-weight: var(--fw-700);
+
+	color: var(--clr-button);
+	background-color: var(--bg-button);
+	box-shadow: var(--shadow);
+
+	border: none;
+	border-radius: 100vmax;
+	border-bottom: 0.5rem solid var(--clr-transparent);
+
+	transition: opacity 0.4s ease-in-out;
+	cursor: pointer;
+
+	&:hover {
+		opacity: 0.5;
+	}
+
+	&--ios {
+		--bg-button: var(--clr-primary-700);
+		--shadow: var(--shadow-700);
+	}
+
+	&--mac {
+		--bg-button: var(--clr-primary-600);
+	}
+
+	@media (min-width: $bp-small) {
+		width: 22.5rem;
+	}
+}

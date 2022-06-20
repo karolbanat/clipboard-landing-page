@@ -1,0 +1,16 @@
+.btn-group {
+	--gap: 2.4rem;
+
+	display: grid;
+	gap: var(--gap);
+
+	margin-top: 5rem;
+	width: 100%;
+
+	@media (min-width: $bp-small) {
+		--gap: 1.6rem;
+		grid-template-columns: repeat(2, 1fr);
+		place-content: center;
+		width: auto;
+	}
+}
