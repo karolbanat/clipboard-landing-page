@@ -9,13 +9,13 @@
 	padding-top: 12rem;
 	padding-inline: var(--spacing-2);
 
-	background-image: url('../../../dist/images/bg-header-mobile.png');
+	background-image: url('../images/bg-header-mobile.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top;
 
 	@media (min-width: $bp-medium) {
-		background-image: url('../../../dist/images/bg-header-desktop.png');
+		background-image: url('../images/bg-header-desktop.png');
 		background-size: contain;
 	}
 
