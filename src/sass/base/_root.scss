@@ -1,0 +1,37 @@
+:root {
+	// colors
+	--clr-primary-600: hsl(233 100% 69%);
+	--clr-primary-700: hsl(171 66% 44%);
+
+	--clr-neutral-400: hsl(201 11% 66%);
+	--clr-neutral-700: hsl(210 10% 33%);
+
+	--clr-white: hsl(0, 0%, 100%);
+	--clr-transparent: hsl(0 0% 0% / 0.15);
+
+	// shadows
+	--shadow-400: 0 1rem 2rem hsl(0 0% 0% / 0.1);
+	--shadow-700: 0 1rem 2rem hsl(160 64% 72%/ 0.5);
+
+	// font families
+	--ff: 'Bai Jamjuree', sans-serif;
+
+	// font weights
+	--fw-400: 400;
+	--fw-700: 600;
+
+	// font sizes
+	--fz-regular: 1.6rem;
+	--fz-medium: 2.4rem;
+	--fz-large: 2.8rem;
+	--fz-x-large: 3.2rem;
+
+	// stage
+	--clr-body-text: var(--clr-neutral-400);
+	--clr-heading: var(--clr-neutral-700);
+
+	--clr-button: var(--clr-white);
+	--clr-border-btm: var(--clr-transparent);
+
+	--footer-link: var(--clr-neutral-400);
+}
